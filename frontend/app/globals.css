@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 15 23 42;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image:
+    radial-gradient(circle at top, rgba(59, 130, 246, 0.24), transparent 30%),
+    radial-gradient(circle at right, rgba(168, 85, 247, 0.14), transparent 25%);
+}
