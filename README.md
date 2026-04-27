@@ -37,20 +37,33 @@ Scalable architecture (service-based modules)
 
 🏗️ Project Structure
 backend/
+
 │
+
 ├── app/
+
 │   ├── main.py                # FastAPI entry point
+
 │   ├── database.py            # SQLite DB operations
+
 │   ├── schemas.py             # Request/response models
+
 │   │
+
 │   ├── services/
+
 │   │   ├── news_service.py    # News fetching & scraping
+
 │   │   ├── summarizer.py      # AI summarization logic
+
 │   │   ├── personalization.py # Recommendation engine
+
 │   │
 │   └── sample_data.py         # Fallback articles
+
 │
 └── smartnews.db               # SQLite database
+
 
 ⚙️ Installation
 1️⃣ Clone the repo
